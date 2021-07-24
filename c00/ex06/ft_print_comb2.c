@@ -6,11 +6,22 @@
 /*   By: jremy <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 19:09:44 by jremy             #+#    #+#             */
-/*   Updated: 2021/07/01 13:15:41 by jremy            ###   ########.fr       */
+/*   Updated: 2021/07/02 09:51:00 by jremy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+void	ft_print_number(int num)
+{
+	char	a;
+	char	b;
+
+	a = num / 10 + '0';
+	b = num % 10 + '0';
+	write(1, &a, 1);
+	write(1, &b, 1);
+}
 
 void	ft_print_comb2(void)
 {
@@ -32,15 +43,4 @@ void	ft_print_comb2(void)
 		}
 		num1++;
 	}
-}
-
-void	ft_print_number(int num)
-{
-	char	a;
-	char	b;
-
-	a = num / 10 + '0';
-	b = num % 10 + '0';
-	write(1, &a, 1);
-	write(1, &b, 1);
 }

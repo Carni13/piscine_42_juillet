@@ -6,18 +6,16 @@
 /*   By: jremy <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 17:14:49 by jremy             #+#    #+#             */
-/*   Updated: 2021/06/30 17:24:05 by jremy            ###   ########.fr       */
+/*   Updated: 2021/07/02 09:43:02 by jremy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
-	if ( n < 0)
-		write(1,"N",1);
-	else if ( n >= 0)
-		write(1,"P",1);
-
+	if (n < 0)
+		write(1, "N", 1);
+	else if (n >= 0)
+		write(1, "P", 1);
 }
-

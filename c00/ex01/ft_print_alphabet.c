@@ -6,15 +6,13 @@
 /*   By: jremy <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 16:34:15 by jremy             #+#    #+#             */
-/*   Updated: 2021/06/30 16:44:28 by jremy            ###   ########.fr       */
+/*   Updated: 2021/07/02 09:32:23 by jremy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-
-void ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-		write(1, "abcdefghijklmnopqrstuvwxyz",26);
+	write(1, "abcdefghijklmnopqrstuvwxyz", 26);
 }
-
