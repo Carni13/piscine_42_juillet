@@ -1,5 +1,0 @@
-Credentials cache: API:3B406367-8A62-4E3D-81BA-444F28E7B682
-        Principal: jremy@42.FR
-
-  Issued                Expires               Principal
-Jun 28 16:28:05 2021  Jul  5 16:27:57 2021  krbtgt/42.FR@42.FR
